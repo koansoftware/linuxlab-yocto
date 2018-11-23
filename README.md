@@ -1,7 +1,21 @@
 # linuxlab-yocto
 
 Setup for the workshop at LinuxLAB 2018
+---------------------------------------
 
+Pre-requisites
+--------------
+
+The pre-requisites to run this workshop are the following:
+
+ * a PC or Laptop with Linux (preferred), Windows or MacOS.
+ * at least 20GB of free space on disk
+ * at least 4GB of RAM
+ * install Docker fllowing the links below
+
+
+Introduction
+------------
 This repo is a helper to create an image that is able to run bitbake/poky.
 
 This is based on CROPS/poky-container [https://github.com/crops/poky-container], so that the output generated in the container will be readable by the user on the host.
@@ -11,21 +25,21 @@ The instructions will be slightly different depending on whether Linux, Windows 
 The preferred/suggested host machine is always **Linux** of course.
 
 
-Introduction
-------------
+Install Docker
+--------------
 First you need to install and setup docker into your host machine.
 
-* **Linux instructions [1] (follow the Post Install instructions [2] so you can run docker without admin privileges)**
+* Linux instructions [1] (follow the Post Install instructions [2] so you can run docker without admin privileges)
 
     [1] https://docs.docker.com/engine/installation/linux
 
     [2] https://docs.docker.com/engine/installation/linux/linux-postinstall
 
-* **Mac Instructions [3]**
+* Mac Instructions [3]
 
     [3] https://github.com/crops/docker-win-mac-docs/wiki/Mac-Instructions
 
-* **Windows Instructions [4] (Docker Toolbox)**
+* Windows Instructions [4] (Docker Toolbox)
 
     [4] https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-%28Docker-Toolbox%29
 
@@ -103,20 +117,23 @@ and now enter the following commands (in the `/workdir` directory)
 
 * **Clone the LinuxLAB project details**
 
+Download the project that provides a preconfigured enviroment and a setup script.
+
   ```
   cd /workdir
   git clone https://github.com/koansoftware/linuxlab-yocto.git
   ```
 
-* **Start the first (long) build**
 
-A script is provided to perform all the required tasks in a single command. Simply execute it.
+Build Yocto Project
+-------------------
+Execute the script is provided to perform all the required tasks in a single command.
 
   ```
   /workdir/linuxlab-yocto/setup.sh
   ```
 
-Bitbake will start compiling.
+Bitbake will start compiling. It will take about 1 hour, depending on your PC resources.
 
   ```
   Parsing recipes: 100% |####################################| Time: 0:01:16
