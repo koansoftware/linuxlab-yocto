@@ -40,13 +40,14 @@ point.
   * **Linux**
 
     The workdir you create will be used for the output created while using the container.
-    For example a user could create a directory using the command
+
+    For example a user could create a directory using the command below. (Replace *myuser* with your username)
   
     ```
     mkdir -p /home/myuser/linuxlab
     ```
 
-    *It is important that you are the owner of the directory.* The owner of the
+    **It is important that you are the owner of the directory.** The owner of the
     directory is what determines the user id used inside the container. If you
     are not the owner of the directory, you may not have access to the files the
     container creates.
@@ -98,7 +99,7 @@ Once you are into the container you should have a prompt similar to:
   pokyuser@3bbac563cacd:/workdir$
   ```
 
-and now enter the following commands (in the /workdir directory)
+and now enter the following commands (in the `/workdir` directory)
 
 
 * **Clone the LinuxLAB project details**
