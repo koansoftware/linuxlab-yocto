@@ -13,15 +13,15 @@ Introduction
 ------------
 First you need to install and setup docker into your host machine.
 
-* ** Linux instructions [1] (follow the Post Install instructions [2] so you can run docker without admin privileges)
- [1] https://docs.docker.com/engine/installation/linux
- [2] https://docs.docker.com/engine/installation/linux/linux-postinstall
+* ** Linux instructions [1] (follow the Post Install instructions [2] so you can run docker without admin privileges)**
+ * **[1] https://docs.docker.com/engine/installation/linux**
+ * **[2] https://docs.docker.com/engine/installation/linux/linux-postinstall**
 
-* ** Mac Instructions [3]
- [3] https://github.com/crops/docker-win-mac-docs/wiki/Mac-Instructions
+* ** Mac Instructions [3]**
+ * **[3] https://github.com/crops/docker-win-mac-docs/wiki/Mac-Instructions**
 
-* ** Windows Instructions [4] (Docker Toolbox)
- [4] https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-%28Docker-Toolbox%29
+* ** Windows Instructions [4] (Docker Toolbox)**
+ * **[4] https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-%28Docker-Toolbox%29**
 
 
 Running the container
