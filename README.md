@@ -11,7 +11,7 @@ The pre-requisites to run this workshop are the following:
  * a PC or Laptop with Linux (preferred), Windows or MacOS.
  * at least 20GB of free space on disk
  * at least 4GB of RAM
- * install Docker fllowing the links below
+ * install Docker following the links below
 
 
 Introduction
@@ -104,7 +104,7 @@ point.
 Setup the Yocto Project environment
 -----------------------------------
 
-IMPORTANT: before continuing run the docker ad described above.
+IMPORTANT: before continuing run the docker as described above.
 
 Once you are into the container you should have a prompt similar to:
 
