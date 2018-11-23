@@ -25,7 +25,7 @@ cp ${WORKDIR}/linuxlab-yocto/linuxlab-koan-local.conf ${BUILDDIR}/conf/local.con
 echo " "
 echo "---> Start the first (long) build"
 cd ${POKYDIR}
-bitbake core-image-minimal
+bitbake -k core-image-minimal
 
 echo " "
 echo "---> Setup completed, see you soon!"

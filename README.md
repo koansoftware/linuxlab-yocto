@@ -159,7 +159,10 @@ Bitbake will start compiling. It will take about 1 hour, depending on your PC re
 At this point, after ~1 hour you should have a succesful compilation of your final image.
 
   ```
-  ..., all succeeded.
+  Initialising tasks: 100% |########################################################| Time: 1:05:02
+  NOTE: Executing SetScene Tasks
+  NOTE: Executing RunQueue Tasks
+  NOTE: Tasks Summary: Attempted 2717 tasks of which 2313 didn't need to be rerun and **all succeeded**.
   ```
 
 
