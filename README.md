@@ -40,11 +40,10 @@ point.
   * **Linux**
 
     The workdir you create will be used for the output created while using the container.
-
-    For example a user could create a directory using the command below. (Replace *myuser* with your username)
+    For example a user could create a directory using the command below.
   
     ```
-    mkdir -p /home/myuser/linuxlab
+    mkdir -p ${HOME}/linuxlab
     ```
 
     **It is important that you are the owner of the directory.** The owner of the
@@ -53,7 +52,7 @@ point.
     container creates.
 
     For the rest of the Linux instructions we'll assume the workdir chosen was
-    `/home/myuser/linuxlab`.
+    `${USER}/linuxlab`.
     
   * **Windows/Mac**
 
@@ -67,7 +66,7 @@ point.
     to run a container for the first time would be:
 
     ```
-    docker run --rm -it -v /home/myuser/linuxlab:/workdir crops/poky --workdir=/workdir
+    docker run --rm -it -v ${HOME}/linuxlab:/workdir crops/poky --workdir=/workdir
     ```
     
   * **Windows/Mac**
