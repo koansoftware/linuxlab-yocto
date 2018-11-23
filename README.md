@@ -105,45 +105,49 @@ and now enter the following commands (in the `/workdir` directory)
 
   ```
   cd /workdir
-  git clone git://github.com/koansoftware/linuxlab-yocto
-  ```
-
-
-* **Clone Poky from the Yocto Project**
-
-  ```
-  cd /workdir
-  git clone git://git.yoctoproject.org/poky -b sumo
-  ```
-
-* **Run the first environment setup**
-
-  ```
-  cd /workdir/poky
-  source oe-init-build-env
-  ```
-
-* **Modify the existing default configuration**
-
-  ```
-  cd /workdir/poky
-  cp linuxlab-yocto/linuxlab-koan-local.conf poky/build/conf/local.conf
+  git clone https://github.com/koansoftware/linuxlab-yocto.git
   ```
 
 * **Start the first (long) build**
 
+A script is provided to perform all the required tasks in a single command. Simply execute it.
+
   ```
-  cd /workdir/poky
-  bitbake core-image-minimal
+  /workdir/linuxlab-yocto/setup.sh
+  ```
+
+Bitbake will start compiling.
+
+  ```
+  Parsing recipes: 100% |####################################| Time: 0:01:16
+  Parsing of 814 .bb files complete (0 cached, 814 parsed). 
+        1282 targets, 62 skipped, 0 masked, 0 errors.
+  NOTE: Resolving any missing task queue dependencies
+
+  Build Configuration:
+  BB_VERSION           = "1.38.0"
+  BUILD_SYS            = "x86_64-linux"
+  NATIVELSBSTRING      = "ubuntu-16.04"
+  TARGET_SYS           = "arm-poky-linux-gnueabi"
+  MACHINE              = "qemuarm"
+  DISTRO               = "poky"
+  DISTRO_VERSION       = "2.5.1"
+  TUNE_FEATURES        = "arm armv5 thumb dsp"
+  TARGET_FPU           = "soft"
+  meta
+  meta-poky
+  meta-yocto-bsp       = "sumo:091d470a8ae2641040983484609e5cd4dfcf9bfd"
   ```
 
 At this point, after ~1 hour you should have a succesful compilation of your final image.
 
+  ```
+  ..., all succeeded.
+  ```
 
 
-*Note: The 'cd' command above is specified constantly in order to avoid mistakes.*
 
-*Note: The instructions above are follwing the commands described in https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html#releases.*
+*Note: The manual instructions are described in https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html#releases.*
 
 ----------
 

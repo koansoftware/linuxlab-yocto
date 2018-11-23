@@ -1,7 +1,7 @@
 #
 # LinuxLAB setup
-# Copyright (C)2018 Marco Cavallini - KOAN sas, Bergamo - Italia - <http://koansoftware.com>
-# License: Mozilla Public License Version 2.0
+#
+# Project link: https://github.com/koansoftware/linuxlab-yocto
 #
 
 WORKDIR="/workdir"
