@@ -2,11 +2,13 @@
 
 Setup for the workshop at LinuxLAB 2018
 
-This repo is a helper to create an image that is able to run bitbake/poky. 
+This repo is a helper to create an image that is able to run bitbake/poky.
+
 This is based on CROPS/poky-container [https://github.com/crops/poky-container], so that the output generated in the container will be readable by the user on the host.
 
 The instructions will be slightly different depending on whether Linux, Windows or Mac is used. There are setup instructions for using **Windows/Mac** at https://github.com/crops/docker-win-mac-docs/wiki. When referring to **Windows/Mac** in the rest of the document, it is assumed the instructions at https://github.com/crops/docker-win-mac-docs/wiki were followed.
-The preferred/suggested host machine is always **Linux**
+
+The preferred/suggested host machine is always **Linux** of course.
 
 
 Introduction
@@ -139,11 +141,11 @@ At this point, after ~1 hour you should have a succesful compilation of your fin
 
 
 
-* Note: The 'cd' command above is specified constantly in order to avoid mistakes. *
+*Note: The 'cd' command above is specified constantly in order to avoid mistakes.*
 
-* Note: The instructions above are follwing the commands described in https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html#releases. *
+*Note: The instructions above are follwing the commands described in https://www.yoctoproject.org/docs/current/yocto-project-qs/yocto-project-qs.html#releases.*
 
 ----------
 
-* Copyright (C)2018 Marco Cavallini - KOAN sas, Bergamo - Italia - <http://koansoftware.com> *
+*Copyright (C)2018 Marco Cavallini - KOAN sas, Bergamo - Italia - <http://koansoftware.com>*
 
