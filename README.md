@@ -8,13 +8,20 @@ This is based on CROPS/poky-container, so that the output generated in the conta
 The instructions will be slightly different depending on whether Linux, Windows or Mac is used. There are setup instructions for using **Windows/Mac** at https://github.com/crops/docker-win-mac-docs/wiki. When referring to **Windows/Mac** in the rest of the document, it is assumed the instructions at https://github.com/crops/docker-win-mac-docs/wiki were followed.
 The preferred/suggested host machine is always **Linux**
 
+
 Introduction
 ------------
 First you need to install and setup docker into your host machine.
 
-    Linux instructions (follow the Post Install instructions so you can run docker without admin privileges)
-    Mac Instructions
-    Windows Instructions (Docker Toolbox)
+* ** Linux instructions [1] (follow the Post Install instructions [2] so you can run docker without admin privileges)
+ [1] https://docs.docker.com/engine/installation/linux
+ [2] https://docs.docker.com/engine/installation/linux/linux-postinstall
+
+* ** Mac Instructions [3]
+ [3] https://github.com/crops/docker-win-mac-docs/wiki/Mac-Instructions
+
+* ** Windows Instructions [4] (Docker Toolbox)
+ [4] https://github.com/crops/docker-win-mac-docs/wiki/Windows-Instructions-%28Docker-Toolbox%29
 
 
 Running the container
