@@ -29,7 +29,7 @@ Install Docker
 --------------
 First you need to install and setup docker into your host machine.
 
-* Linux instructions [1] (follow the Post Install instructions [2] so you can run docker without admin privileges)
+* Linux instructions [1] (follow the Post Install instructions [2] (Only the first chapter "Manage Docker as a non-root user") so you can run docker without admin privileges)
 
     [1] https://docs.docker.com/engine/installation/linux
 
