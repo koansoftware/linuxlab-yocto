@@ -11,7 +11,7 @@ BUILDDIR="/workdir/poky/build"
 echo " "
 echo "---> Clone Poky from the Yocto Project"
 cd ${WORKDIR}
-git clone git://git.yoctoproject.org/poky -b sumo
+git clone git://git.yoctoproject.org/poky -b zeus
 
 echo " "
 echo "---> Run the first environment setup"
